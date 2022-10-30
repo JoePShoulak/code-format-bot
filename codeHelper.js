@@ -10,7 +10,7 @@ const identifyContent = (content, index) => {
   return "lang_code";
 };
 
-const createSections = (content) => {
+const createSections = async (content) => {
   const sections = [];
 
   const rawSections = content.split("```");
